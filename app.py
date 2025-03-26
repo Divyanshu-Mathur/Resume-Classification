@@ -3,6 +3,9 @@ import joblib
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 import pdfplumber
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
 
 
 model = joblib.load('model.pkl')
