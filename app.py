@@ -6,6 +6,7 @@ import pdfplumber
 import nltk
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 
 
 model = joblib.load('model.pkl')
